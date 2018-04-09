@@ -1,0 +1,18 @@
+h1 {
+	font-size: 30px;
+	margin-top: 0;
+	font-variant: small-caps;
+}
+.contents {
+	background-color: #ffffff;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.actions .fa {
+	margin:0 2px;
+	color: #050F67;
+}
+.actions .fa:hover {
+	color: #000000;
+}

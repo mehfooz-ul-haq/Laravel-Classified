@@ -1,0 +1,221 @@
+.btn {
+    border-radius: 0;
+}
+.top-well-links.well {
+	/*margin-bottom: 10px;*/
+}
+.top-well-links {
+	font-size: 11px;
+	font-weight: 700;
+    text-transform: uppercase;
+}
+
+.top-well-links a {
+    color: #000000;
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.navbar-custom {
+	background-color: rgb(255, 102, 0);
+	border-color: rgb(255, 51, 0); 
+    border-bottom-width: 0;
+	text-transform: uppercase;	
+	font-size: 12px;
+	font-weight: 700;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.nav-custom {
+    margin-bottom: 20px;
+    background-color: #000;
+    margin-top: 0;
+}
+.nav-custom a {
+    color: #ffffff;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.nav-custom>li>a.active,
+.nav-custom>li>a:hover,
+.nav-custom>li>a:focus {
+   background-color: rgb(255, 102, 0);
+   border-left: 1px solid #333;
+   border-right: 1px solid #333;
+   border-radius: 0;
+}
+
+
+.navbar-black {
+    background-color: #000000;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    height: 40px;
+}
+
+/*.navbar-brand {
+	padding: 0;
+}*/
+.navbar-custom .navbar-nav > li > a {
+    color: rgb(255, 255, 255);
+}
+.navbar-black .navbar-nav > li > a {
+    color: rgb(200, 200, 200);
+}
+.navbar-black .navbar-nav > li > a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* To Dropdown navbar dropdown on hover */
+.navbar-nav > li:hover > .dropdown-menu {
+    display: block;
+}
+
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+
+
+.slider-bg {
+	background: url(../images/slider-bg.jpg);
+	background-size: 100%;
+	background-origin: border-box;
+}
+.slider-bg a {
+	margin: auto 10px;
+	color: #ffffff;
+	border-radius: 0;
+	background-color: rgba(0,0,0,.25);
+	border-color: #ffffff;
+}
+.slider-bg a:hover {
+	color: #ffffff;
+	border-color: #000000;
+}
+.text-white {
+	color: #ffffff;
+}
+
+
+#latestNews {
+    margin: 20px 0;
+}
+#latestNews .news-item {
+    margin-bottom: 10px;
+}
+#latestNews .news-item a {
+    color: #000000;
+}
+
+
+
+h1, h2, h3, h4 {
+    font-family: "Ubuntu Condensed";
+    text-transform: uppercase;
+}
+h1, h3, h3.sub-heading {
+    font-size: 28px;
+    /*text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);*/
+}
+h3, h3.sub-heading {
+    font-size: 21px;
+    color: rgb(255, 102, 0);
+    text-shadow: none;
+}
+
+
+.panel-custom {
+    border-color: rgb(0, 102, 255); 
+}
+.panel-custom .panel-heading  {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 176, 240);
+    border-color: rgb(0, 102, 255); 
+    font-size: 18px;
+    font-family: "Ubuntu Condensed";
+    text-transform: uppercase;
+}
+
+footer {
+    color: #000;
+    padding: 15px 0;
+    margin-top: 50px;
+    background-color: #cccccc;
+}
+footer h3 {
+    font-size: 24px;
+    color: #000;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #333;
+}
+
+footer .followup {
+    font-size: 36px;
+    
+}
+
+footer .quick-links {
+    list-style-type: none;
+    margin-left: 15px;
+    padding: 0;
+}
+footer .quick-links a {
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #333333;
+    text-decoration: none;
+    -webkit-transition: all .2s; /* Safari */
+    transition: all .2s;
+}
+footer .quick-links a:hover {
+    color: #333;
+}
