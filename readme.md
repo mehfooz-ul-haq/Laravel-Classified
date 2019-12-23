@@ -1,7 +1,7 @@
-#Assignment
+#Laravel Classified System
 
 
-My Assignement for basic CRUD in Laravel for a company with Secured Admin Panel
+A basic laravel classified system with admin dashboard
 
 
 
